@@ -17,3 +17,10 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const FullSection = styled.div`
+  width: 100%;
+  @media ${(props) => props.theme.breakpoints.md} {
+    height: 100vh;
+  }
+`;
