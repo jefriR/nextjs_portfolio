@@ -10,6 +10,7 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  min-height:100vh;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -22,6 +23,7 @@ export const Section = styled.section`
 
     width: calc(100vw - 32px);
     flex-direction: column;
+    min-height:100vh;
   }
 `
 
@@ -62,6 +64,7 @@ export const SectionText = styled.p`
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;

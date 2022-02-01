@@ -50,6 +50,30 @@ export const List = styled.ul`
   }
 `
 
+export const ListMikro = styled.ul`
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  margin: 3rem 0;
+  
+  @media ${props => props.theme.breakpoints.lg}{
+    margin: 64px 0;
+  }
+
+  @media ${props => props.theme.breakpoints.md}{
+    margin: 64px 0;
+    gap: 20px
+  }
+  
+  @media ${props => props.theme.breakpoints.sm}{
+    ${'' /* display: grid;
+    flex-direction: column; */}
+    grid-template-columns: repeat(2, 1fr);
+    margin: 32px 0;
+  }
+`
+
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -100,6 +124,22 @@ export const ListParagraph = styled.p`
 export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
+  flex-direction: column;
+
+@media ${props => props.theme.breakpoints.md}{
+  max-width: 203px;
+}
+
+@media ${props => props.theme.breakpoints.sm}{
+  margin-bottom: 14px;
+  max-width: 320px;
+  flex-direction: row;
+}
+`
+
+export const ListItemMikro = styled.li`
+  max-width: 320px;
+  display: inline-block;
   flex-direction: column;
 
 @media ${props => props.theme.breakpoints.md}{

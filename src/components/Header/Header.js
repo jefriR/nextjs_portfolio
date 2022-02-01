@@ -11,24 +11,29 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom:'20px'}}>
-          <DiTerminalBadge size='4rem' /> <Span>Jefri Ronaldo</Span> 
+          <DiTerminalBadge size='4rem' /> <Span> Jefri Ronaldo</Span> 
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href="#about">
           <NavLink>About</NavLink>
+        </Link>
+      </li>
+      {/* <li>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
+      </li> */}
+      <li>
+        <Link href="#tech">
+          <NavLink>Tech</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
     </Div2>

@@ -2,9 +2,17 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Boxes2Grid, Boxes, Box, BoxNum, BoxText } from '../Acomplishments/AcomplishmentsStyles'
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+
+const data = [
+  { number: 5, text: 'Public Projects', },
+  { number: 5, text: 'Private Projects', },
+  // { number: 1900, text: 'Github Followers', },
+  // { number: 5000, text: 'Github Stars', }
+];
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
@@ -47,7 +55,8 @@ const Timeline = () => {
       <SectionTitle>About Me </SectionTitle>
       <SectionDivider />
       <SectionText>
-        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+      Scene Graduated in 2020 from Bina Nusantara University with Software Engineering's interest. , now I work in PT Indomarco Prismatama as Backoffice Team. My main jobs is created system for data transform from any resource to main database and  monitoring it. 
+      I created Monitoring webs for monitoring all my systems.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -102,6 +111,14 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
+      <Boxes2Grid>
+      {data.map((card, index) =>(
+        <Box key='index'>
+          <BoxNum>{card.number}</BoxNum>
+          <BoxText>{card.text}</BoxText>
+        </Box>
+      ))}
+    </Boxes2Grid>
     </Section>
   );
 };

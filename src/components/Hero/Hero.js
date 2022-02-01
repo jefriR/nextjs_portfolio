@@ -12,7 +12,7 @@ const Hero = (props) => (
         Jefri Ronaldo's Portfolio
       </SectionTitle>
       <SectionText>
-        Hello, I'm a Web Developer since 2019 - Graduated 2020 from Bina Nusantara University in Computer Science Department with Software Engineering's interest.
+        Hello, I'm a Web Developer since 2019 - Graduated 2020 from Bina Nusantara University in Computer Science Department and really interst with web development world.
       </SectionText>
       <Button onClick={() => window.location = 'https://linkedin.com/'}>Download CV</Button>
     </LeftSection>
