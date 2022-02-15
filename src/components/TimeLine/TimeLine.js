@@ -2,13 +2,22 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { Boxes2Grid, Boxes, Box, BoxNum, BoxText } from '../Acomplishments/AcomplishmentsStyles'
+import { ContainerExperience, Boxes2Grid, Boxes, Box, BoxNum, BoxText } from './TimeLineStyles'
+import { ListMikro, ListItemMikro } from '../Technologies/TechnologiesStyles';
 import { TimeLineData } from '../../constants/constants';
+import { DiTerminalBadge } from 'react-icons/di';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
-const data = [
-  { number: 5, text: 'Public Projects', },
+const Works = [
+  { number: "2019 - PT Indomarco Prismatama", text: 'Internship ', },
+  { number: 5, text: 'Private Projects', },
+  // { number: 1900, text: 'Github Followers', },
+  // { number: 5000, text: 'Github Stars', }
+];
+
+const Activities = [
+  { number: "2019 - PT Indomarco Prismatama", text: 'Internship ', },
   { number: 5, text: 'Private Projects', },
   // { number: 1900, text: 'Github Followers', },
   // { number: 5000, text: 'Github Stars', }
@@ -111,14 +120,25 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <Boxes2Grid>
-      {data.map((card, index) =>(
-        <Box key='index'>
-          <BoxNum>{card.number}</BoxNum>
-          <BoxText>{card.text}</BoxText>
+      
+     
+      <ContainerExperience>
+        <h1>Work Experience <SectionDivider /></h1>
+        <Boxes2Grid>
+        <Box>
+          <BoxNum>2019 - Internship at PT XYZ Program</BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet, consectetur </BoxText>
         </Box>
-      ))}
-    </Boxes2Grid>
+        <Box>
+          <BoxNum BoxNum>2020 - Full Stack at PT XYZ Program</BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet, consectetur </BoxText>
+        </Box>
+        <Box>
+          <BoxNum BoxNum>2021 - Front End as PT Lorem ipsum</BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet, consectetur </BoxText>
+        </Box>
+        </Boxes2Grid>
+      </ContainerExperience>
     </Section>
   );
 };

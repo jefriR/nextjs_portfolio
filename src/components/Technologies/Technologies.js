@@ -1,7 +1,6 @@
 import React from 'react';
-import { DiCodeigniter, DiReact, DiDatabase, DiBootstrap, DiPython, DiGo } from 'react-icons/di';
-import {IoAlertCircleSharp} from 'react-icons/io5'
-import {SiFlask, SiGo, SiOracle} from 'react-icons/si'
+import { DiCodeigniter, DiReact, DiDatabase, DiBootstrap, DiPython,  DiHtml5, DiJavascript, DiJqueryLogo,  } from 'react-icons/di';
+import { SiGo, SiOracle} from 'react-icons/si'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListMikro, ListItemMikro } from './TechnologiesStyles';
 import Button from '../../styles/GlobalComponents/Button';
@@ -51,18 +50,13 @@ const Technologies = () =>  (
       </ListItem>
     </List>
     <ListMikro>
-      <ListItemMikro><DiBootstrap />  Bootstrap V.4</ListItemMikro>
-      <ListItemMikro><IoAlertCircleSharp /> Sweet Alert 2 & 3</ListItemMikro>
-      <ListItemMikro><SiFlask />  Flask</ListItemMikro>
-      <ListItemMikro><DiPython />  Python 3</ListItemMikro>
+    
+      <ListItemMikro><DiHtml5 />  HTML/CSS</ListItemMikro>
+      <ListItemMikro><DiJavascript />  Javascript</ListItemMikro>
+      <ListItemMikro><DiJqueryLogo /> Jquery</ListItemMikro>
+      <ListItemMikro><DiBootstrap />  Bootstrap</ListItemMikro>
+      <ListItemMikro><DiPython />  Python/Flask</ListItemMikro>
       <ListItemMikro><SiGo />  Golang</ListItemMikro>
-      <ListItemMikro><SiOracle />  Job & Procedure</ListItemMikro>
-      <ListItemMikro><DiBootstrap />  Bootstrap V.4</ListItemMikro>
-      <ListItemMikro><IoAlertCircleSharp /> Sweet Alert 2 & 3</ListItemMikro>
-      <ListItemMikro><SiFlask />  Flask</ListItemMikro>
-      <ListItemMikro><DiPython />  Python 3</ListItemMikro>
-      <ListItemMikro><SiGo />  Golang</ListItemMikro>
-      <ListItemMikro><SiOracle />  Job & Procedure</ListItemMikro>
     </ListMikro>
   </Section>
 );

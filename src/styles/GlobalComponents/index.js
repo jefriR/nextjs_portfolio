@@ -10,7 +10,7 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-  min-height:100vh;
+  min-height: 100vh;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -23,7 +23,7 @@ export const Section = styled.section`
 
     width: calc(100vw - 32px);
     flex-direction: column;
-    min-height:100vh;
+    min-height: 100vh;
   }
 `
 
@@ -200,6 +200,7 @@ export const ButtonBack = styled.div`
     height: 32px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
+    margin-top: 100px;
   }
 `
 
