@@ -9,10 +9,10 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br/>
-        Jefri Ronaldo's Portfolio
+        My Portfolio
       </SectionTitle>
       <SectionText>
-        Hello, I'm a Web Developer since 2019 - Graduated 2020 from Bina Nusantara University in Computer Science Department and really interst with web development world.
+        Hello, I'm a Web Developer since 2019 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       </SectionText>
       <Button onClick={() => window.location = 'https://linkedin.com/'}>Download CV</Button>
     </LeftSection>

@@ -162,7 +162,7 @@ export const Boxes2Grid = styled.div`
   gap: 24px;
   margin: 24px 0 40px;
 
-  @media ${props => props.theme.breakpoints.md}{
+  ${'' /* @media ${props => props.theme.breakpoints.md}{
     gap: 16px;
     margin: 20px 0 32px;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -170,11 +170,11 @@ export const Boxes2Grid = styled.div`
 
   @media ${props => props.theme.breakpoints.sm}{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 10px;
     max-width: 400px;
     margin: 24px auto;
-  }
+  } */}
 `
 
 export const Box = styled.div`
@@ -188,13 +188,14 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
+    height: 100px;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
     height: 110px;
     padding: 12px;
+    width:200px
     
     &:nth-child(2n){
       grid-row:2;
@@ -216,8 +217,8 @@ export const BoxNum = styled.h5`
     line-height: 32px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 20px;
 }
 `
 

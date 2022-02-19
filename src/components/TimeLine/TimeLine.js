@@ -64,8 +64,7 @@ const Timeline = () => {
       <SectionTitle>About Me </SectionTitle>
       <SectionDivider />
       <SectionText>
-      Scene Graduated in 2020 from Bina Nusantara University with Software Engineering's interest. , now I work in PT Indomarco Prismatama as Backoffice Team. My main jobs is created system for data transform from any resource to main database and  monitoring it. 
-      I created Monitoring webs for monitoring all my systems.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -126,16 +125,38 @@ const Timeline = () => {
         <h1>Work Experience <SectionDivider /></h1>
         <Boxes2Grid>
         <Box>
-          <BoxNum>2019 - Internship at PT XYZ Program</BoxNum>
-          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet, consectetur </BoxText>
+          <BoxNum>2019 - Internship Program in Retail Company</BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</BoxText>
         </Box>
         <Box>
-          <BoxNum BoxNum>2020 - Full Stack at PT XYZ Program</BoxNum>
-          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet, consectetur </BoxText>
+          <BoxNum BoxNum>2021 - Full time as Full Stack in Retail Company</BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet consectetur. </BoxText>
         </Box>
         <Box>
-          <BoxNum BoxNum>2021 - Front End as PT Lorem ipsum</BoxNum>
-          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet, consectetur </BoxText>
+          <BoxNum BoxNum>2021 - Create website for real estate agent </BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum. </BoxText>
+        </Box>
+        </Boxes2Grid>
+      </ContainerExperience>
+
+      <ContainerExperience>
+        <h1>Activities <SectionDivider /></h1>
+        <Boxes2Grid>
+        <Box>
+          <BoxNum>2017 - IT Coordinator at Computer Science Campus Community</BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet consectetur adipiscing elit.</BoxText>
+        </Box>
+        <Box>
+          <BoxNum BoxNum>2018 - IT General Manager at Computer Science Campus Community</BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor sit amet consectetur. </BoxText>
+        </Box>
+        <Box>
+          <BoxNum BoxNum>2020 - Web Developer Talk Webinar </BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor excepteur sint occaecat mollit anim id est laborum. </BoxText>
+        </Box>
+        <Box>
+          <BoxNum BoxNum>2022 - How to Deploy and Implement Docker Webinar </BoxNum>
+          <BoxText><DiTerminalBadge size='2rem'/>Lorem ipsum dolor Excepteur sint occaecat cupidatat non proident. </BoxText>
         </Box>
         </Boxes2Grid>
       </ContainerExperience>

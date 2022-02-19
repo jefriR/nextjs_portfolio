@@ -10,7 +10,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionDivider/>
     <SectionText> 
-      I really like all things about Web Developer, from Frontend, Backend, Database and others. But for now I use PHP and Javascript more often.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </SectionText>
     <List> 
       <ListItem>

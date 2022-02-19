@@ -29,9 +29,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Started in Bina Nusantara University', },
-  { year: 2019, text: 'Internship Program in PT Indomarco Prismatama', },
-  { year: 2020, text: 'Graduated from Bina Nusantara University', },
-  { year: 2020, text: 'Full time in PT Indomarco Prismatama', },
-  // { year: 2021, text: 'Started my own platform', },
+  { year: 2016, text: 'Started in Computer Science University', },
+  { year: 2017, text: 'IOS Foundation Program', },
+  { year: 2020, text: 'Graduated from  University', },
+  { year: 2022, text: 'Create Modern Website with React Js Bootcamp', },
 ]; 

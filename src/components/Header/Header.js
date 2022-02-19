@@ -11,7 +11,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom:'20px'}}>
-          <DiTerminalBadge size='4rem' /> <Span> Jefri Ronaldo</Span> 
+          <DiTerminalBadge size='4rem' /> <Span> Jeff Ronal</Span> 
         </a>
       </Link>
     </Div1>
