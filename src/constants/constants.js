@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Next Js Portfolio',
     description: "Using React and next js to create Single Page Application Portfolio",
-      image: '/images/1.jpg',
+      image: '/images/1.JPG',
       tags: ['React', 'Next', 'Vercel'], 
     source: 'https://nextjs-portfolio-brown.vercel.app/',
     visit: 'https://nextjs-portfolio-brown.vercel.app/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Next Js Real Estate ',
     description:"Using React and next js to create real estate website",
-    image: '/images/2.jpg',
+    image: '/images/2.JPG',
     tags: ['React', 'Next', 'Vercel'],
     source: 'https://nextjs-realestate-nine.vercel.app/',
     visit: 'https://nextjs-realestate-nine.vercel.app/',
